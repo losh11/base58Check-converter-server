@@ -1,0 +1,20 @@
+{
+  "name": "base58check-converter-server",
+  "version": "1.0.0",
+  "description": "Express server with base58Check prefix modification endpoint",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "keywords": [
+    "litecoin",
+    "bitcoin",
+    "cryptocurrency"
+  ],
+  "author": "losh11 (loshan1212@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "bitcoinjs-lib": "^3.3.2",
+    "express": "^4.16.3"
+  }
+}
